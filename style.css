@@ -24,8 +24,27 @@
   font-weight: 500;
   font-size: 18px;
 }
+.padding-left-40 {
+  padding-left: 40px;
+}
+.margin-top-10 {
+  margin-top: 10px;
+}
+.font-size-14 {
+  font-size: 14px;
+}
 .text-green {
   color: #2adb00;
+}
+.line-height-20 {
+  line-height: 20px;
+}
+.color-grey {
+  color: #6c6c6c;
+}
+.color-grey-bright {
+  color: #8e8e8e;
+  gap: 10px;
 }
 header {
   justify-content: space-between;
@@ -66,6 +85,10 @@ header {
   max-width: 1180px;
   padding-right: 40px;
   padding-left: 40px;
+}
+.highlight {
+  background: linear-gradient(to top, #f5f5f5, #ffffff);
+  max-width: 2000px !important;
 }
 .business {
   height: 385px;
@@ -112,18 +135,24 @@ h2 {
   width: 550px;
   margin-left: 15px;
 }
-.text{
+.text {
   font-size: 13px;
 }
-.color-grey {
-  color: #6c6c6c;
-}
-.line-height-20 {
-  line-height: 20px;
-}
-.padding-left-40 {
-  padding-left: 40px;
+.fa-message {
+  color: #8e8e8e;
 }
 .fa-share {
-  color: #6c6c6c;
+  color: #8e8e8e;
+}
+.section-one-bottom {
+  height: 233px;
+  gap: 15px;
+  margin-top: 30px;
+  padding-bottom: 50px;
+}
+.section-one-bottom img {
+  height: 175px;
+}
+#adds {
+  height: 270px;
 }
