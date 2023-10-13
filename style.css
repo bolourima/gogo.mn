@@ -4,8 +4,7 @@
 }
 .container {
   font-family: Arial, Helvetica, sans-serif;
-  max-width: 1200px;
-  background-color: #fff;
+  max-width: 1180px;
   margin: auto;
 }
 .display-flex {
@@ -79,8 +78,8 @@ header {
 }
 .section-one {
   padding-top: 15px;
-  margin-bottom: 10px;
-  height: 736px;
+  padding-bottom: 50px;
+  height: 763px;
   margin: auto;
   max-width: 1180px;
   padding-right: 40px;
@@ -148,11 +147,68 @@ h2 {
   height: 233px;
   gap: 15px;
   margin-top: 30px;
-  padding-bottom: 50px;
 }
 .section-one-bottom img {
   height: 175px;
 }
 #adds {
   height: 270px;
+}
+.section-two {
+  height: 25.5px;
+  margin-top: 40px;
+}
+#gogo-tittle {
+  font-size: 25.5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+#story {
+  height: 25.5px;
+  width: 69, 7px;
+  font-size: 18px;
+  font-weight: 700;
+  background-color: #00b0f4;
+  border-radius: 3px;
+  padding: 2px 3px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+.section-two-bottom {
+  max-width: 1180px;
+  justify-content: space-between;
+}
+.card {
+  height: 235px;
+  width: 170px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 7px;
+}
+.card1 {
+  background: url(./section\ two\ 2.png);
+  background-size: 100%;
+}
+.card:hover {
+  opacity: 1;
+  background-size: 105%;
+  transition: all 0.7s;
+}
+.card-top {
+  height: 50px;
+  padding: 10px;
+}
+.card-bottom {
+  font-size: 13px;
+  color: #FFFFFF;
+  font-weight: 500;
+  padding: 10px;
+}
+.fa-eye {
+  color:#ffffff
 }
