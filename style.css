@@ -275,6 +275,25 @@ h2 {
   padding: 10px;
   padding-top: 30px;
 }
+.see-more {
+  width: 690px;
+  background-color: #f8f8f8;
+  height: 65px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin-left: 8px;
+  margin-top: 30px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.see-more:hover {
+  background-color: #ffffff;
+  cursor: pointer;
+  border: #f8f8f8 1px solid;
+  color: #407ce8;
+  transition-duration: 0.3s;
+}
 .middle-aside {
   margin-left: 30px;
 }
@@ -289,16 +308,137 @@ h2 {
   margin-left: 12px;
 }
 .line {
-  height: 4000px;
+  height: 2830px;
   border-left: #efefef solid 1px;
   margin-left: 60px;
   margin-top: 35px;
 }
+.margin-left-50 {
+  margin-left: 50px;
+}
 .right-aside {
   width: 290px;
-  margin-left: 70px;
   margin-top: 35px;
 }
 .fa-clock {
   margin-left: 20px;
+}
+.special-news {
+  height: 30px;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 550;
+  margin-bottom: 25px;
+}
+.grid-container-two {
+  display: grid;
+  grid-template-columns: 290px;
+  grid-template-rows:
+    170px 60px 40px 170px 60px 40px
+    170px 60px 40px
+    170px 60px 40px;
+}
+.font-size-15 {
+  font-size: 15px;
+  font-weight: 500;
+}
+.font-size-12 {
+  font-size: 12px;
+}
+.fa-message-2 {
+  margin-left: 18px;
+}
+.trend-news {
+  background-color: rgb(255, 250, 230);
+  height: 1450px;
+  width: 340px;
+}
+.trend-news-topic {
+  padding: 50px 30px;
+  text-align: center;
+}
+.trend-news-article {
+  padding: 0px 30px 30px;
+}
+.trend-news-rate {
+  font-weight: 700;
+  color: #e00034;
+  font-size: 46px;
+  line-height: 46px;
+  margin-right: 15px;
+}
+.font-weight-300 {
+  font-weight: 100;
+}
+.border-dotted {
+  border: dashed 0.2px rgb(129, 129, 129);
+  width: 250px;
+  margin-left: 15px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.section-four {
+  height: 500px;
+  padding-left: 10px;
+}
+.section-four-left {
+  width: 580px;
+  background-color: #00b0f4;
+  background: url("https://mgl.gogo.mn/newsn/thumbnail/1000/images/c/2023/10/311560-13102023-1697170235-1782031612-111.jpg")
+    no-repeat;
+  background-size: 160%;
+  background-position: center;
+  padding: 330px 20px 20px 30px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-right: 10px;
+}
+.section-four-left:hover {
+  background-size: 170%;
+  transition-duration: 0.7s;
+}
+.gogo-cafe {
+  height: 26px;
+  padding: 4px;
+  width: 140px;
+  font: 16px;
+  color: #ffffff;
+  background-color: #407ce8;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.gogo-cafe-2 {
+  height: 26px;
+  padding: 5px 3px;
+  width: 85px;
+  font: 16px;
+  color: #ffffff;
+  background-color: #407ce8;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.border-dashed {
+  border: dashed white 0.6px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+.section-four-right {
+  width: 580px;
+  display: grid;
+  grid-template-columns: 271px 271px;
+  grid-template-rows: 243px 243px;
+  gap: 10px;
+}
+.four-right {
+  background-image: url(./section\ two\ 2.png);
+  color: #FFFFFF;
+  font-size: 13px;
+  padding: 130px 15px 0px 10px;
+  background-size: 110%;
+  background-position: center;
+}
+.four-right:hover {
+  background-size: 115%;
+  transition-duration: 0.7s;
 }
