@@ -386,6 +386,7 @@ h2 {
   background-color: #00b0f4;
   background: url("https://mgl.gogo.mn/newsn/thumbnail/1000/images/c/2023/10/311560-13102023-1697170235-1782031612-111.jpg")
     no-repeat;
+  border-radius: 5px;
   background-size: 160%;
   background-position: center;
   padding: 330px 20px 20px 30px;
@@ -432,6 +433,7 @@ h2 {
 }
 .four-right {
   background-image: url(./section\ two\ 2.png);
+  border-radius: 5px;
   color: #FFFFFF;
   font-size: 13px;
   padding: 130px 15px 0px 10px;
@@ -441,4 +443,60 @@ h2 {
 .four-right:hover {
   background-size: 115%;
   transition-duration: 0.7s;
+}
+.section-five {
+  margin-top: 50px;
+
+  max-width: 1160px;
+}
+#style {
+  height: 25.5px;
+  width: 69, 7px;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 3px;
+  padding: 2px 3px;
+  color: #fff;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+.gogo-style-card {
+  height: 360px;
+  width: 263px;
+  border: #efefef 0.5px solid;
+  border-radius: 10px;
+}
+.gogo-style-card-image {
+  height: 230px;
+  background: url(https://mgl.gogo.mn/newsn/thumbnail/510/images/c/2023/10/311753-13102023-1697156891-1745020475-dreams.jpg) center;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 40% 30%;
+}
+.gogo-style-card-image:hover {
+  transition-duration: 0.5s;background-size: 210%;
+  opacity: 1;
+}
+.dreams {
+  height: 72px;
+  font-size: 16px;
+  padding: 7% 5%;
+}
+.opacity-0 {
+  opacity: 0;
+}
+.gogo-style-card-icon {
+  display: flex;
+  gap: 25px;
+  background-color: #00b0f4;
+  
+  font-size: 12px;
+  color: #888888;
+}
+#row-line {
+  width: 240px;
+  height: 1px;
+  background-color: #000000;
 }
