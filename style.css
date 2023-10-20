@@ -87,7 +87,7 @@ header {
   padding-bottom: 50px;
   height: 763px;
   margin: auto;
-  max-width: 1180px;
+  width: 1180px;
   padding-right: 40px;
   padding-left: 40px;
 }
@@ -153,6 +153,9 @@ h2 {
   height: 233px;
   gap: 15px;
   margin-top: 30px;
+}
+.one-bottom-height {
+  width: 269px;
 }
 .section-one-bottom img {
   height: 175px;
@@ -654,7 +657,7 @@ h2 {
   gap: 10px;
   font-size: 15px;
   color: #101010;
-  font-weight: 500;
+  font-weight: 600;
 }
 .row-line-4 {
   width: 1180px;
