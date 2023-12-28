@@ -59,6 +59,9 @@ header {
   flex-wrap: wrap;
   max-width: 1180px;
 }
+.gogo-logo-media-query {
+  display: none;
+}
 .header-left {
   align-items: center;
   font-size: 16px;
@@ -87,7 +90,7 @@ header {
   padding-bottom: 50px;
   height: 763px;
   margin: auto;
-  max-width: 1180px;
+  width: 1180px;
   padding-right: 40px;
   padding-left: 40px;
 }
@@ -153,6 +156,9 @@ h2 {
   height: 233px;
   gap: 15px;
   margin-top: 30px;
+}
+.one-bottom-height {
+  width: 269px;
 }
 .section-one-bottom img {
   height: 175px;
@@ -654,7 +660,7 @@ h2 {
   gap: 10px;
   font-size: 15px;
   color: #101010;
-  font-weight: 500;
+  font-weight: 600;
 }
 .row-line-4 {
   width: 1180px;
@@ -668,4 +674,53 @@ h2 {
 }
 .footer-bottom {
   margin-bottom: 50px;
+}
+.mobile-header {
+  display: none;
+}
+/* Media query */
+@media screen and (max-width: 390px) {
+  .container {
+    width: 390px;
+  }
+ header {
+  display: none;
+  height: 0px;
+  margin-bottom: 100px;
+  padding: 0px 0px;
+  height: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: flex-start;
+ }
+ .header-left {
+  display: none;
+ }
+ .header-right {
+  display: none;
+ }
+ .nav-bar {
+  border: #6C6C6C 0.1px solid;
+  border-radius: 5px;
+ }
+ .nav-bar p ,span{
+  font-size: 14px;
+ }
+  .mobile-header {
+    display: block;
+    width: 390px;
+    display: flex;
+    background-color: #acacac;
+    font-size: 10px;
+    height: 50px;
+  }
+  .section-one {
+    display: none;
+  }
+  .logo-mobile {
+    width: 70px;
+    height: 22px;
+    background-color: #f7ffa1;
+    margin-top: 15px;
+    margin-right: 20px;
+  }
 }
